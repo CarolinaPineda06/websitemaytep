@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,400;1,200;1,300&display=swap');
+*{
+    margin: 0;
+}
+.main_index{
+    text-align: center;
+    background-image: url(atardecer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}
+.contenedorIndex{
+    text-align: center;
+}
+.contenedorTitulo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: xx-large;
+    
+}
+.contenedorParrafo{
+    font-family: 'Playfair Display', serif;
+}
+.redesociales{
+    background-color:  rgb(143, 77, 140);
+    height: 105px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.redesocialesimg{
+    height: 25px;
+    margin-right: 15px;
+    
+} 
+.menu{
+    background-color:rgb(175, 136, 177);
+    height: 105px;
+    display: flex;
+    justify-content: left; 
+    align-items: center; 
+}
+
+.menuimg{
+    height: 65px;
+    margin-left: 305px;
+}
+.listaMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    list-style-type: none;
+    margin-left: 40%;
+}
+.listaMenu li{
+    margin-right: 25px;
+}
+.contenedor-principal img{
+    height: 545px;
+    width: 347px;
+    border-radius: 15px;
+    margin-left: 255px;
+    margin: 35px;
+}
+
+.contenedor-principal {
+    background-image: rgb (245, 245, 220);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.contenedorYO {
+    margin-right: 205px;
+    margin-left: 125px;
+}
+
+.contenedor-principal h1{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 55px;
+    color: rgb(79, 43, 83);
+    margin: 0px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.contenedor-principal p{
+    font-family:'Playfair Display', serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+.botonMain {
+    color: #0a0606;
+    background:rgb(177, 142, 142);
+    border:none;
+    border-radius: 15px;
+    font-family: verdana;
+    font-size: 12px;
+    width: 165px; 
+    height: 45px;
+    margin-right: 35px;
+    margin-left: 255px;
+}
+.bloques{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cuadro1{
+    text-align: center;
+    width: 20%;
+    margin: 15px 25px;
+    padding: 30px 0px;
+    border:  rgb(218, 218, 218) solid;
+    border-radius: 35px;
+    background-color: #dbc2dd;
+}
+.cuadro1 p{
+    text-align: justify;
+    margin: 15px;
+}
+.imgCuadro1{
+    width: 205px;
+}
+.boton1{
+    color: #0a0606;
+    background: rgb(177, 142, 142);
+    border: none;
+    border-radius: 15px;
+    font-family: verdana;
+    font-size: 15px;
+    width: 125px;
+    height: 45px;
+
+}
+.cuadro2{
+    text-align: center;
+    width: 20%;
+    margin: 15px 25px;
+    padding: 35px 0px;
+    border:  rgb(214, 214, 214) solid;
+    border-radius: 35px;
+    background-color:  #dbc2dd;;
+}
+.imgCuadro1{ width: 205px;
+}
+.cuadro2 p{
+    text-align: justify;
+    margin: 15px;
+
+}
+.boton2{
+    color: #0a0606;
+    background: rgb(177, 142, 142);
+    border: none;
+    border-radius: 15px;
+    font-family: verdana;
+    font-size: 15px;
+    width: 125px;
+    height: 45px;
+}
+.cuadro3{
+    text-align: center;
+    width: 20%;
+    margin: 15px 25px;
+    padding: 35px 0px;
+    border:  rgb(0, 0, 0);
+    border-radius: 35px;
+    background-color: #dbc2dd;
+}
+.cuadro3 p{
+    text-align: justify;
+    margin: 15px;
+}
+.boton3{
+    color: #0a0606 ;
+    background:  rgb(177, 142, 142);
+    border: none;
+    border-radius: 15px;
+    font-family: verdana;
+    font-size: 15px;
+    width: 125px;
+    height: 45px;
+}
+
+.imgyo{
+    width: 455px;
+    margin-left: 55px;
+}
